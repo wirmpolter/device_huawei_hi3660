@@ -17,5 +17,5 @@
 # inherit from hisi common
 -include device/hisi/common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/huawei/mha
+DEVICE_PATH := device/hisi/hi3660
 

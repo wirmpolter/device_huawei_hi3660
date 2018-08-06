@@ -16,7 +16,7 @@
 #
 
 # Device Path
-DEVICE_PATH := device/huawei/mha
+DEVICE_PATH := device/hisi/hi3660
 
 # Inherit from common
 $(call inherit-product, device/hisi/common/hisi-common.mk)
