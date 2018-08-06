@@ -16,7 +16,7 @@
 #
 
 $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
-$(call inherit-product, $(LOCAL_PATH)/full_mha.mk)
+$(call inherit-product, $(LOCAL_PATH)/full_hi3660.mk)
 
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
@@ -25,10 +25,10 @@ $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-PRODUCT_NAME := havoc_mha
-PRODUCT_DEVICE := mha
+PRODUCT_NAME := havoc_hi3660
+PRODUCT_DEVICE := hi3660
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Mate-9
+PRODUCT_MODEL := hi3660
 PRODUCT_MANUFACTURER := Huawei
 
 # Override device name

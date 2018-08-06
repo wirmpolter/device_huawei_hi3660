@@ -16,10 +16,10 @@
 #
 
 # Device Path
-DEVICE_PATH := device/huawei/mha
+DEVICE_PATH := device/huawei/hi3660
 
 # Inherit from common
-$(call inherit-product, device/hisi/common/hisi-common.mk)
+$(call inherit-product, device/huawei/kirin960-common/kirin960-common.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay

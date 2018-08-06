@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # inherit from hisi common
--include device/hisi/common/BoardConfigCommon.mk
+-include device/huawei/kirin960-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/huawei/mha
+DEVICE_PATH := device/huawei/hi3660
 
