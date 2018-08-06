@@ -20,11 +20,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common.mk)
 
-# Inherit from Mha device
+# Inherit from hi3660 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := full_mha
-PRODUCT_DEVICE := mha
+PRODUCT_NAME := full_hi3660
+PRODUCT_DEVICE := hi3660
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Mate-9
+PRODUCT_MODEL := hi3660
