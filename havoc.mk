@@ -15,11 +15,14 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
-$(call inherit-product, $(LOCAL_PATH)/full_hi3660.mk)
+# Inherit device configuration
+$(call inherit-product, device/hisi/hi3660/device.mk)
 
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+
+# Device Path
+DEVICE_PATH := device/hisi/hi3660
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
