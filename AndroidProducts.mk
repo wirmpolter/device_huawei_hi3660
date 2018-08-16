@@ -16,4 +16,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc.mk
+    $(LOCAL_DIR)/aosp_hi3660.mk
