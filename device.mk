@@ -24,3 +24,6 @@ $(call inherit-product, device/huawei/kirin960-common/kirin960-common.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# NFC config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/nfc/libnfc-nci.conf:system/etc/libnfc-nci.conf
