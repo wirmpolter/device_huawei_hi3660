@@ -15,6 +15,9 @@
 # limitations under the License.
 #
 
+PRODUCT_COPY_FILES += \
+    device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+
 # Inherit device configuration
 $(call inherit-product, device/hisi/hi3660/device.mk)
 
