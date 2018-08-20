@@ -16,4 +16,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_hi3660.mk
+    $(LOCAL_DIR)/aoscp.mk

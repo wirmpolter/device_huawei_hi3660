@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES += \
 # Inherit device configuration
 $(call inherit-product, device/hisi/hi3660/device.mk)
 
+# Inherit some common aoscp stuff
+$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
+
 # Device Path
 DEVICE_PATH := device/hisi/hi3660
 
@@ -28,7 +31,7 @@ DEVICE_PATH := device/hisi/hi3660
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-PRODUCT_NAME := aosp_hi3660
+PRODUCT_NAME := aoscp_hi3660
 PRODUCT_DEVICE := hi3660
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := hi3660
