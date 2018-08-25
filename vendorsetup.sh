@@ -15,5 +15,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo aoscp_hi3660-userdebug
+add_lunch_combo statix_hi3660-userdebug
 

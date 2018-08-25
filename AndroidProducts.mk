@@ -16,4 +16,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aoscp.mk
+    $(LOCAL_DIR)/statix_hi3660.mk

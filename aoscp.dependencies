@@ -1,7 +1,0 @@
-[
-  {
-    "repository":  "wirmpolter/device_hisi_common",
-    "target_path": "device/hisi/common",
-    "branch": "9"
-  }
-]
